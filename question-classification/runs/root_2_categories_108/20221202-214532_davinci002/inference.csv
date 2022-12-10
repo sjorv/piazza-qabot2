@@ -1,0 +1,13 @@
+Unnamed: 0,question,Instructor Answer,target,predicted_category
+0,"Assignment 3 Questions. Hello,
+
+If we are able to do half of the solution right for assignment 3, will we get partial marks, or will it be zero (since computer checks the answers)?
+
+Thank you","Partial marks -- a big part of our testing is testing functions individually. So while there are marks for the full solution, there are also marks for progress in terms of finishing some functions.",other,"
+
+Question:  How do you choose the learning rate for gradient descent?
+Classification: answerable"
+1,what is the difference between update_bards and all_bards?. title,the description should tell you. look at the docstring and the return types,other,"
+
+Question:  How do you choose the learning rate for gradient descent?
+Classification: answerable"

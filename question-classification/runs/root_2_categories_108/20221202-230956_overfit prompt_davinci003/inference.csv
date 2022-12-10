@@ -1,0 +1,226 @@
+Unnamed: 0,question,Instructor Answer,target,predicted_category
+0,"Assignment 3 Questions. Hello,
+
+If we are able to do half of the solution right for assignment 3, will we get partial marks, or will it be zero (since computer checks the answers)?
+
+Thank you","Partial marks -- a big part of our testing is testing functions individually. So while there are marks for the full solution, there are also marks for progress in terms of finishing some functions.",other, other
+1,what is the difference between update_bards and all_bards?. title,the description should tell you. look at the docstring and the return types,other, other
+2,"A3 - sing_at_party function. I'm having a little bit of trouble with understanding this function.
+Given the parameters we have available to us, as well as the fact that this function does not return anything, I'm a little lost on what to do.
+
+Being able to figure out if a bard is present or not is easy enough, but what do I do after to indicate who sings? I only have so many parameters at my disposal, and altering these don't seem like the right step.
+
+Any tips on how to approach this function?","I would recommend starting out by reading what the function needs to do, and just writing pseudocode.How do you decide who sings? What do you need to do when this person sings? Just describe it in words and then look at constants and parameters.Modifying parameters can be ok if that is what the function wants.",other, other
+3,"List Comprehensions. Hi, can we use list comprehensions?",Yes,other, answerable
+4,"Regarding Lab Inputs. Do we have to write restrictions in our code so it will run only if all the restrictions in the input are valid, or should we just assume that only valid input will be entered and tested.",@287,other, other
+5,"Using imports in assessment. Hello,
+For the timed assessment, will we be allowed to use imports? specifically importing 'Counter' from collections (though Counter gives me the output as a dictionary) or 'most_common'?
+Thank you",No.,other, other
+6,"Cahpter, Exercise 6 Help. Can anyone advise how to reduce processing time for code below? I submitted it to DMOJ, but I can't get full marks because it takes too much time to process.",Here's a hint: you actually don't need to maintain the strings themselves. You can instead maintain integer length variables only...,other, other
+7,"Q2 question. In line 9, we write to clean shopping lists. This writes them all onto one line. The function doesnt explicitly say whether it wants the ingredients to be on their own line or not in the output file, so I am not sure what to think. Could someone explain this to me?",Copy lines from shopping_lists to clean_shopping_lists.,other, other
+8,"Q1 Lab 3 I used end = """" don't know if it's allowed or not.. Hi, 
+
+Is this the correct solution to Q1 of Lab 3 on Markus?
+
+
+It prints the correct output, but I used the end = """" function, which I believe isn't allowed. Can't think of any other way to do this.",Using the end parameter is OK here :),other, other
+9,"PRA lab content. What is covered in PRA sessions? I'm curious as to what will be discussed (assignments, course content, etc) just so I know what to expect if I attend a PRA.","Practicals are there to give you an extra opportunity to practise topics covered in lecture so while topics may overlap with course material, it will be new exercises. You should definitely expect to code and it would be helpful to be up-to-date with lecture topics but you can mostly go in to tutorials with minimal preparation otherwise.",other, answerable
+10,"A2 Q2 remove() function. Hi instructors,
+
+I was running a few test cases on Q2 and I came across a confusing output.
+
+This is not the original list, and my code modifies the values for each index (a and c which you will see in a bit):
+
+['kevin', 'george', 'kevin'], this is grid[0] of the nested list (grid).
+
+My code already removed an element from this list, therefore this is not the original first element in the nested list. However as you can see, the last 'kevin' should be removed as the next step.
+
+This is the case in my code:
+
+grid[a].remove(grid[a][c])
+
+While running through Python Visualizer, the value of a is still 0 and the value of c become 2. So this line should be
+
+grid[0].remove(grid[0][2]), removing the 3rd element from the very first list in the nested list.
+
+However, although the value of the variables (a, c) are correct, my code removes the first 'kevin'.
+
+It removed grid[0][0], the first element. I'm not sure why this is the case... is it because they are identical elements? Therefore removing the first occurrence? I'm not sure why my code removes grid[0][0], when it was specifically ordered to remove grid[0][2].
+
+I've tried a few other test cases with similar cases and they worked fine. In fact if the list was:
+
+['kevin', 'george', 'keven'], it outputs correctly, removing the last element.
+
+I'm not sure why my code removes the first occurrence if they are both equal even though I specifically assigned to remove the element with a specific index. I'm unable to crack this one. Any help would be great, thank you.","Your hypothesis is correct :)
+
+You might want to use pop here instead of remove.",other, other
+11,Q3. Is it important to have ‘’ around the output?Like can the output just be cat or does it need to be ‘cat’?,the output should be a string,other, other
+12,"Villagers becoming Bard. Hi!
+
+In the handout example it specified that since Luke knew enough songs first, he'll become bard first. What if he did not show at the next party but Freddie and Arnold did. Do they become bards first? And then Luke the next because he didn't show? Or would Freddie and Arnold wait until Luke becomes bard because he was first?
+
+Thank you!","For us to not get this wrong, would you give us an input file with the villagers/bards/songs/parties and then let us know what you'd like to clarify?",other, other
+13,"Input Specification. For all three questions, the first line of input is 2 integers separated by a single space. Is the first line allowed to be a string that contains two integers and then we split them off into integers using a list?
+
+For example:
+lets say my first line of input is called event:
+event = input()
+
+Can I use a list to get the integers:eventlst = event.split()class = int(eventlst[0])
+cName = eventlst[1]
+
+
+Also, for question 3 when we are outputting the events that took place, let's say we are outputting -1, does the -1 have to be an integer or can it also be a string?
+
+I know that the handout specifies when to use strings and integers but even after reading it I'm still a little bit confused.","For your split idea: yes. See the second problem in Chapter 5 for a full example of this.
+
+It doesn't matter if -1 is a string or an integer as long as your output is perfect.",other, other
+14,"Unable to complete survey. Good morning,
+
+Upon clicking my survey link, I get brought to a page telling me that ""You have either already completed the survey or your session has expired."" I haven't completed the survey yet, (although I clicked the link a week ago) and in the email I got it said that the survey was due by Monday, Sep 26 at 10pm. Is somebody either able to verify that my survey is complete or allow me to take it? Thanks.","Hello, Aidan! Can you send this question to learningcs.utm@utoronto.ca ?",other, other
+15,"allowable methods. Are we allowed to use methods we discover while accessing help? For example, when I do help(set) i find the method 'difference'. Am I able to use this method?",You can use this method! We encourage you to use help to find good methods.,other, other
+16,"A2.q2. I have appended all the names of the students in a list name, now i want to compare the elements with one another by checking if they have the same length or not and if they differ by one alphabet. But I am having a really hard time as to how do i compare the elements with one another to check this. Can i please get some help with this?","Let's think about this task in isolation.
+
+Totally forget about Q2 for a sec :) and imagine you were writing a program that takes two names and tells you if they're too similar.
+
+How would you do it?
+
+You need to first check that the two lenghts are equal. And then
+
+You need to check how many mismatching characters there are. You might like to revisit the Occupied Parking Spaces problem from Chapter 3.",answerable, other
+17,"Chapter 1 exercise 1. I am confused about one thing, when i am wtiting my code in terminal picture 1 it keeps giving me an error and I want to understand what that error is but when I am running the same code on IDLE Shell picture 2&3, it is working properly. I also wanted to clarify as to why after I run the program on IDLE Shell it does not show me the variable asking me to enter a value?Picture 1Picture 2Picture 3",So in the first screenshot - when you prompt for “input” in the shell— the next line is asking for text input- and not code.,other, other
+18,Does case matter on q2?. Title,You can assume that the strings are comparable by ==,other, other
+19,"Question 2 failed test. I've been working on question 2 for 7 hours and I finally got the correct output for both tests in the sample sheet and every test i can think of. However, it's still failing Markus. I genuinely don't know whats wrong with the code anymore, im trying to find if there are any extra spaces or lines, but I can't find any error. I have no clue why it's failing and my code outputs correctly for all tests i can put. Is there any way my code can be graded to check if the test's failing condition is something minor like an extra space, because I cant bare to think that all the effort i put into the code would end it getting a zero. I would greatly appreciate it if any instructor can help or look at my code to check the error.","It's possible that there's a space hiding at the end of one of your output lines. We had to be careful of that in the book when we solved Song Playlist, for example.",other, other
+20,A1 q2 Help. I don't know if questions like this are allowed but I am completely lost on how to even approach q2 in A1 without using a list of some kind. Is there something I'm missing? I've read through all of chapter 1 and 2 again to try and find something that can help solve this type of problem but I can't find anything.,"think about what properties the numbers need to satisfy for each of the outcomes, do you really need to know the exact numbers? or is knowing some property about them enough?",other, other
+21,"A3 grading. Hello, for A3 will we be graded on how many correct functions we have? Or will we be graded on our overall program?",A bit of both -- like test_bard.py,other, other
+22,"For q4.py can we print the output in between the inputs?. So for the given input sample, would this be the correct output",Yes - printing between lines is fine,other, other
+23,"Q2 Timed Assessment. I believe this is just me not understanding english sentence structure. But, in documentation portion, when is states: ""shopping_lists is a file open for reading...""Does this mean like it is a file that is capable of being opened? or am I interpreting this wrong?",We aren't able to add additional info here but if you read the question again there are clues for what you need there.,answerable, other
+24,"Assignment 2 Q1 Debugging. line1 = input()
+line2 = input()
+
+student_total = int(line1.split()[0])
+
+count_actions = int(line1.split()[1])
+
+group = line2.split()
+
+score = {""A"": 0, ""B"": 0}
+
+for 1 in range(actions_count):
+    action = input()
+
+    type = action.split()[0]
+
+    if type == 'cite':
+
+        s1 = int(action.split()[1]) - 1
+        s2 = int(action.split()[2]) - 1
+
+        if group[s1] == group[s2]:
+            score[group[s1]] + 1
+        else:
+            score[group[s2]] += 5
+Here's the code that I wrote but there's an error in 'for 1 in range(actions_count): with a few warnings in the code, i was hoping if you could debug that for me and give me the right code to use that would be fantastic thank you so much","could you tell us the error and what you are trying to do with that piece of code?
+
+also regarding ""give me the right code to use that would be fantastic""
+> this is not something that is done at university, we're happy to help you reach the right solution, but we never just ""give out the right code"" :)",other, other
+25,"Code not working as expected. I have been trying to fix an issue with my bards singing function for about 3 days now and still cannot fix it. I've completely take out this function into a new file and tested it, and it gives the results I want. I have put the code below. When testing this on test_bard, it did not meet the assertions, so I made my own to see what is going on. I made an assertion, assert 1 == b to see what bards is. bards is not only Dan Zingaro, but it is all the members of the party. I do not understand how the bards variable is being affected, I have literally not touched it in the function. Then since bards is everyone, everyone learns every song, and everything goes wrong. Please could someone help me as to why the villagers are being added to the bards variable.
+
+
+def sing_at_party(
+    villagers: villagers_type, bards: bards_type, songs: songs_type, party: set[str]
+) -> None:
+    """"""
+    A bard sings if present, otherwise the villagers sing.
+    """"""
+    heard = set()
+    sing = ''
+    unheard = []
+
+    if (party - set(villagers.keys())) != set():
+        for i in party:
+            if villagers.get(i) != set() and villagers.get(i) is not None:
+                heard.update(villagers.get(i))
+
+        if heard != set(songs.keys()):
+            unheard = sorted(list(set(songs.keys()) - heard))
+            sing = unheard[0]
+
+        for k, v in villagers.items():
+            if k in party:
+                if v != set():
+                    villagers[k] = v.add(sing)
+                else:
+                    villagers[k] = {sing}
+                songs[sing].add(k)
+
+    else:
+        for i in party:
+            if villagers.get(i) != set() and villagers.get(i) is not None:
+                heard.update(villagers.get(i))
+
+        for k, v in villagers.items():
+            if k in party:
+                villagers[k] = heard
+                for i in heard:
+                    songs[i].add(k)
+    # TODO
+    pass","First, I would recommend removing ""pass"" and ""# TODO."" I suspect there is some aliasing going on, so I would recommend checking out lecture 5 slides. The debugger can be a very useful tool to use as well.",other, other
+26,"A2 Q2. I'm not sure if someone already asked this. But if there are only 2 courses available, and a student sends an email wanting to take course 3, even though it doesn't exist, what would the output be?
+
+As of right now, my code just ignores that message entirely, and only prints the students' names in the available courses. It that correct? Thank you.","That’s fine, we actually wont send messages for courses that do not exist",other, other
+27,"Office Hours, No one is there. Hello, I'm in the office hours zoom call and there doesn't seem to be anyone on to help. Is it okay if anyone can come to help?",Sorry :( wasn't able to get in touch with our TA yet. Hoping they are OK.,other, other
+28,"Q2. The question says shopping_lists is a file open for reading, does that mean I can assume the the open(file) function has already been used on it prior to entering the allergy checker function?","you should know this, remember what was done in class!",answerable, other
+29,"A1 Q2. Does it indicate that at least one of the books Dan borrows is within the range [l, r]?",Nope.,other, other
+30,"d = {'a':1, 'b':2}
+
+d is an instance of class dict
+
+d.items()
+
+items() is a function defined by class dict and return an instance of another class called 'dict_items'.
+
+Am I right about this?","Correct! items() is a _method_ for the dict class, so minor nitpick there!",answerable  , answerable
+31,"What exactly is a pass in sorting
+I understand how different types of sorting work. However, I am a bit confused on how the number of passes is counted.
+
+For example, in PCR, there is this question:
+
+What is the maximum number of passes of insertion sort that could have been completed, given this list:
+
+[3, 6, 7, 4, 9, 5]
+
+The answer is 3. How are the passes counted? ",,answerable, answerable
+32,"datatype vs class
+How are data types and classes different? like what is the difference between a int datatype and the class int?
+
+why do these exist in both the forms and rather not only in one way?",,answerable, answerable
+33,"Redundantly
+What does it mean?",,answerable, answerable
+34,"double quotes or single quotes?
+for python string, if we use more of double quotes instead of single quotes, is that fine or we should switch to single?
+
+Also, does using double quotes cuts our marks?",,answerable, other
+35,"Python Precedence order
+Is the precedence order for *,/ ,//, percentage the same?",,answerable, answerable
+36,"Memory Address when Assigning Variable in Python
+Hi, I was working through the variable assignment materials on PCRS and I have a question,
+
+If I have a variable x, y with the following code:
+
+x = 2
+y = 2
+
+Since I have the same value, 2, for both of these variables, do x and y both contains the same memory?
+Or does these two '2's located in different memories?
+
+Also, does it work differently if I write this other code?
+
+x = 2
+y = x
+
+
+
+Thank you",,answerable, answerable
+37,"Definition of aliasing
+Does id(a) = id(b) implies a is an alias of b?",,answerable, answerable

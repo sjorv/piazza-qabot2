@@ -1,0 +1,59 @@
+General Params:
+
+    run_dir : runs/root_2_categories/
+    run_suffix_tag : paul_prompt
+    openai-key-path : openai_api_key.txt
+    run_info : binary classification
+    save_run : True
+    verbose : True
+
+
+Dataset Params:
+
+    shuffle : False
+    num_samples : None
+    stratified : False
+    dataset_path : ../datasets/311/csc311_2_categories.csv
+    dataset_info : CSC311 Fall 2022.
+    labels : ['answerable', 'other']
+
+
+Control Params:
+
+    evaluate : True
+    inference : True
+    reuse_run : False
+    reuse_run_dir : None
+    plot_metrics : False
+    plot_dirs : ['20221129-143038', '20221129-143351', '20221129-143624', '20221129-143914', '20221129-144250', '20221129-144405']
+
+
+Model Params:
+
+    model : text-davinci-002
+    max_tokens : 200
+    top_p : 1
+    temperature : 0
+    n : 1
+    prompt_type : few
+    prompt : 
+The following questions were posted on a course discussion board for an undergraduate programming course.
+If you are able to answer the question given the context, write "answerable". If there is not enough context to answer the question, write "other".
+Q: Request for an Extension for Assignment 3
+A: other
+Q: Program running but no output?
+A: answerable
+Q: I am doing a Pytest. Why is my main.py not being called?
+A: answerable
+Q: Assignment 3
+A: other
+Q: Unable to access Python from textbook instructions (mac)
+A: answerable
+Q: T.B example CH3 P 94 clarification
+A: other
+Q: Equality Operator
+A: answerable
+Q: String Method - Strip()
+A: answerable
+Q: {0}
+A:

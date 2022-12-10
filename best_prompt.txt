@@ -1,0 +1,30 @@
+Question: When can we expect to get our test 2 grades back?
+Classification: other
+
+Question:  How do we approach this question on the homework? 
+Nvm just solved it.
+Classification: other
+
+Question: A4. Will we lose marks for doing x on the assignment?
+Classification: other
+
+Question: Lab3. So for the pred function in part 2 of the lab, is this the correct way to do it?
+Classification: other
+
+Question: lab5 backward. i get stuck on the function backward(). I get a graph like this. Any help?
+Classification: other
+
+Question: I am stuck on the function backward(). Any help?
+Classification: other
+
+Question:  How does gradient descent work?
+Classification: answerable 
+
+Question:  What are some strategies for splitting the dataset into train, validation and test sets?
+Classification: answerable 
+
+Question:  Why does a neural net with a single hidden unit produce a linear decision boundary
+Classification: answerable 
+
+Question: {0}
+Classification:

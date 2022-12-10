@@ -1,0 +1,37 @@
+Unnamed: 0,question,folders,target,predicted_category
+95,"Gradient Descent Learning Rate In lecture 2, Lisa mentioned decreasing $$\alpha$$ (learning rate) as we move towards the minimum. How do we do this? Is there any formula? Since in the lab, we just used validation set to pick a fixed $$\alpha$$ so I am wondering!",other,answerable, answerable
+186,"Hw1 Q3 - bold face ""b"" What does the bold face ""b"" stand for in Part (a)? Is it supposed to be the targets?
+",hw1,answerable with the right context, answerable with the right context
+132,"Q1 d) I'm debating between the training set and the test set for this question; I want to say that the test set would give the best model since whichever model has the highest accuracy after tuning the parameters and training the data would be the better model. However, I'm not sure how much accuracy you can derive from just using the training set. Any tips for this?",hw1,answerable with the right context, answerable with the right context
+29,"lab1 not sure what to do after normalizing data The accuracy of predictions before and after normalizing are exactly the same, regardless of whether I use the normalized training or validation set. I think I might be using them wrong but can't figure out where the problem may be.
+
+edit: found the reason, I forgot to feed in all parameters when calling predict_knn",lab1,unanswerable, answerable with the right context
+55,"HW2 due date According to the syllabus, HW2 is due on Nov. 21, but on the course schedule on the home page, it is listed as due on Nov. 14. Which due date is correct?","hw2,logistics",unanswerable, answerable
+33,"Lab 1 - Changes on Rerun Each time we rerun lab 01, we are getting different outputs. Is this expected?",lab1,answerable with the right context, answerable
+200,predict_knn() method of counting the labels Would we be penalized for using a builtin function such as np.unique or np.bincount to count the labels of the k closest points in predict_knn()?,lab1,unanswerable, answerable
+6,"Cosine Similarity In week 1, we were introduced Eucliden Distance and Cosine Similarity as 2 methods to measure distance. However, I only saw we used Euclidean Distance till now. When does it make more sense to use cosine similarity formula? How about $$(\sum_{j=1}^d(x_j^{(a)} - x_j^{(b)})^p)^\frac{1}{p}$$ ?",other,answerable, answerable
+2,"Lab6 Trainable Parameters For the trainable parameters questions, can we use similar method to lec6 slide(33) after converting in_features and out_features to a grid? Or is that an incorrect way to go about it. It worked for Logistic Regression but not so much MLP.",lab6,answerable with the right context, answerable with the right context
+65,"Cross entropy loss for regression In class, we went over why square loss is not good loss function for classification problem! However, we did not mention anything about cross entropy loss for regression. I wonder can cross entropy loss be used for regression? If no, what is the drawback? If yes, is CE or square loss better for regression?",exam,answerable, answerable
+40,"Lab 8 Part 2 typo Hi,
+
+In the docstring of function naive_bayes_map, it says a = 1 and b= 1 are used in the beta distribution, however, up in the description, it says a=2 and b=2 are used. So which one are we using in this function?
+
+Thank you!",lab9,unanswerable, answerable
+126,"1 d I’m confused about the choosing between the data sets? does “data sets” refer to the training, validation and testing data sets? ",hw1,answerable with the right context, answerable
+18,"SGD Final Validation Accuracy: 0.766
+
+Is this 0.76% or 76%? 
+
+Also my code for solve_via_gradient_descent is taking around 15 secs for 2000 iterations? Is this okay?
+
+Thank you
+
+",lab3,answerable with the right context, answerable with the right context
+156,Lab 3 part 2 Loss function How can i calculate z in the loss function of part 2 lab 3?,lab3,unanswerable, answerable with the right context
+9,"Hw1 Q2 what is 0 means in x^(1) =(2,0) In the question given examples :x^(1) =(2, 0), t^(1)=1 .
+What is 0 in  x^(1) =(2, 0) means? Is it the bias of the data?",hw1,answerable , answerable
+180,"Lab2 Solve gradient descent I don't really understand the purpose of the training set in solve_grad_desc function for the lab. We calculate the MSE for both valid and training sets/target, but we only apply update on the weights with respect to the validation set. What is then the purpose of the training set then? ",lab2,answerable, answerable
+174,"A1 Q3 b) I am getting a piecewise function for my partial derivatives for $$\mathcal{L}$$, this is mainly due to the absolute value function present in $$z$$. Is this expected and if so, do I need to provide separate gradient vectors?",hw1,answerable with the right context, answerable with the right context
+22,Perturbing data Can we randomly choose the perturbing value? Or is there a specific guide for it?,lab2,answerable with the right context, answerable with the right context
+164,"""call plot_confusion_matrix here, on the validation data"" Is this comment code for part 5 correct? the accuracy and recall rate do not ""differ wildly"" for me. They do if I use the test data however",lab3,answerable with the right context, answerable with the right context
+45,Ordinal categorical data I wonder if I can treat ordinal categorical data the same as quantitative data (aka do not need to create 1 hot vector)? Is there any disadvantages for this?,other,answerable, answerable

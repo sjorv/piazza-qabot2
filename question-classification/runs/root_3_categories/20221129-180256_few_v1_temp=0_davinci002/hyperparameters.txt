@@ -1,0 +1,119 @@
+General Params:
+
+    run_dir : runs/
+    run_suffix_tag : few_v1_temp=0_davinci002
+    openai-key-path : ../../openai_api_key.txt
+    run_info : include task description in *a single* in-context example
+    save_run : True
+    verbose : True
+
+
+Dataset Params:
+
+    shuffle : False
+    num_samples : 20
+    stratified : False
+    dataset_path : ../../datasets/classify_datasets/cleaned_csc311_fall_2022_classify_prompt_v1.csv
+    dataset_info : CSC311 Fall 2022. Randomly shuffled and 20 samples were picked.
+    labels : ['answerable', 'unanswerable', 'answerable with the right context']
+
+
+Control Params:
+
+    evaluate : True
+    inference : True
+    reuse_run : False
+    reuse_run_dir : None
+    plot_metrics : False
+    plot_dirs : ['20221129-143038', '20221129-143351', '20221129-143624', '20221129-143914', '20221129-144250', '20221129-144405']
+
+
+Model Params:
+
+    model : text-davinci-002
+    max_tokens : 200
+    top_p : 1
+    temperature : 0
+    n : 1
+    prompt_type : few
+    prompt : 
+
+Task Description: Classify the question from an undergraduate course discussion board as either "answerable", "unanswerable" or "answerable with the right context". 
+A question that is "answerable" is one that can be answered without needing any additional context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "answerable with the right context" is one that can be answered if it was conditioned on the right context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "unanswerable" is one that can only be answered by an instructor or one that depends on time.
+
+Question: Florian's Office Hours. Are Florian's OH still happening right now?
+Classification: unanswerable
+
+Task Description: Classify the question from an undergraduate course discussion board as either "answerable", "unanswerable" or "answerable with the right context". 
+A question that is "answerable" is one that can be answered without needing any additional context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "answerable with the right context" is one that can be answered if it was conditioned on the right context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "unanswerable" is one that can only be answered by an instructor or one that depends on time.
+
+Question: Test 2 grades. When can we expect to get our test 2 grades back?
+Classification: unanswerable
+
+Task Description: Classify the question from an undergraduate course discussion board as either "answerable", "unanswerable" or "answerable with the right context". 
+A question that is "answerable" is one that can be answered without needing any additional context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "answerable with the right context" is one that can be answered if it was conditioned on the right context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "unanswerable" is one that can only be answered by an instructor or one that depends on time.
+
+Question: Unsure of compute_accuracy
+Hi, I couldn't complete the Lab 1 on time and submitted what I could so I'm going back and finishing it for my own understanding.
+
+I noticed the TA said I had coded this wrong,
+So assumed we would use X_valid and t_valid instead of X_new/t_new but I keep getting this error.
+I'm curious where I am going wrong.
+Nvm just solved it.
+Classification: unanswerable
+
+Question:A1 Q4a
+What is the size of inp?
+
+edit: nvm got it lol
+Classification: unanswerable
+
+Question: lab5 backward i get stuck on the function backward. I get a graph like this. I am not sure if I get my z2_bar in a wrong way.
+Classification: answerable with the right context
+
+Task Description: Classify the question from an undergraduate course discussion board as either "answerable", "unanswerable" or "answerable with the right context". 
+A question that is "answerable" is one that can be answered without needing any additional context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "answerable with the right context" is one that can be answered if it was conditioned on the right context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "unanswerable" is one that can only be answered by an instructor or one that depends on time.
+
+Question: Pred
+So for the pred function in part 2 of the lab, is this the correct way to do it? Can we assume that each value in y is between 0 and 1? 
+Classification: answerable with the right context
+
+Task Description: Classify the question from an undergraduate course discussion board as either "answerable", "unanswerable" or "answerable with the right context". 
+A question that is "answerable" is one that can be answered without needing any additional context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "answerable with the right context" is one that can be answered if it was conditioned on the right context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "unanswerable" is one that can only be answered by an instructor or one that depends on time.
+
+Question: Cant seem to make solve_via_sgd work? need help
+Classification: answerable with the right context
+ 
+Task Description: Classify the question from an undergraduate course discussion board as either "answerable", "unanswerable" or "answerable with the right context". 
+A question that is "answerable" is one that can be answered without needing any additional context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "answerable with the right context" is one that can be answered if it was conditioned on the right context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "unanswerable" is one that can only be answered by an instructor or one that depends on time.
+
+Question: I wonder if gradient descent is only used to find the optimal coefficients right? We cannot use it to find the optimal hyper-paramater? Thank you!
+Classification: answerable
+
+Task Description: Classify the question from an undergraduate course discussion board as either "answerable", "unanswerable" or "answerable with the right context". 
+A question that is "answerable" is one that can be answered without needing any additional context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "answerable with the right context" is one that can be answered if it was conditioned on the right context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "unanswerable" is one that can only be answered by an instructor or one that depends on time.
+
+Question: I looked the post on piazza and relooked at lab 2. When we split data into training, validation, test sets, we want different categories(or different pattern) into different sets. We don't want it split randomly. Is my understanding correct?
+Classification: answerable
+
+Task Description: Classify the question from an undergraduate course discussion board as either "answerable", "unanswerable" or "answerable with the right context". 
+A question that is "answerable" is one that can be answered without needing any additional context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "answerable with the right context" is one that can be answered if it was conditioned on the right context such as a course assignment, lab, syllabus or a screenshot of a course snippet. 
+A question that is "unanswerable" is one that can only be answered by an instructor or one that depends on time.
+
+Question:{0}
+Classification:

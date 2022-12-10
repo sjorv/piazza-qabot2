@@ -1,0 +1,59 @@
+General Params:
+
+    run_dir : runs/root/
+    run_suffix_tag : only_examples_few_temp=0_davinci002
+    openai-key-path : ../../openai_api_key.txt
+    run_info : binary classification
+    save_run : True
+    verbose : True
+
+
+Dataset Params:
+
+    shuffle : False
+    num_samples : 20
+    stratified : False
+    dataset_path : ../../datasets/classify_datasets/cleaned_csc311_fall_2022_classify_prompt_binary.csv
+    dataset_info : CSC311 Fall 2022. Randomly shuffled and 20 samples were picked.
+    labels : ['answerable', 'other']
+
+
+Control Params:
+
+    evaluate : True
+    inference : True
+    reuse_run : False
+    reuse_run_dir : None
+    plot_metrics : False
+    plot_dirs : ['20221129-143038', '20221129-143351', '20221129-143624', '20221129-143914', '20221129-144250', '20221129-144405']
+
+
+Model Params:
+
+    model : text-davinci-002
+    max_tokens : 200
+    top_p : 1
+    temperature : 0
+    n : 1
+    prompt_type : few
+    prompt : 
+
+Question: When can we expect to get our test 2 grades back?
+Classification: other
+
+Question: How do we approach this question on the homework? 
+Nvm just solved it.
+Classification: other
+
+Question: Will we lose marks for doing x on the assignment?
+Classification: other
+
+Question:  How does gradient descent work?
+Classification: answerable 
+
+Question:  What are some strategies for splitting the dataset into train, validation and test sets?
+Classification: answerable 
+
+
+Question:{0}
+Classification:

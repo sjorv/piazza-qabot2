@@ -1,0 +1,69 @@
+General Params:
+
+    run_dir : runs/root_2_categories/
+    run_suffix_tag : overfit prompt
+    openai-key-path : openai_api_key.txt
+    run_info : binary classification
+    save_run : True
+    verbose : True
+
+
+Dataset Params:
+
+    shuffle : False
+    num_samples : None
+    stratified : False
+    dataset_path : ../datasets/311/csc311_2_categories.csv
+    dataset_info : CSC108 Fall 2022.
+    labels : ['answerable', 'other']
+
+
+Control Params:
+
+    evaluate : True
+    inference : True
+    reuse_run : False
+    reuse_run_dir : None
+    plot_metrics : False
+    plot_dirs : ['20221129-143038', '20221129-143351', '20221129-143624', '20221129-143914', '20221129-144250', '20221129-144405']
+
+
+Model Params:
+
+    model : text-davinci-003
+    max_tokens : 200
+    top_p : 1
+    temperature : 0
+    n : 1
+    prompt_type : few
+    prompt : 
+Question: When can we expect to get our test 2 grades back?
+Classification: other
+
+Question:  How do we approach this question on the homework? 
+Nvm just solved it.
+Classification: other
+
+Question: A4. Will we lose marks for doing x on the assignment?
+Classification: other
+
+Question: Lab3. So for the pred function in part 2 of the lab, is this the correct way to do it?
+Classification: other
+
+Question: lab5 backward. i get stuck on the function backward(). I get a graph like this. Any help?
+Classification: other
+
+Question: I am stuck on the function backward(). Any help?
+Classification: other
+
+Question:  How does gradient descent work?
+Classification: answerable 
+
+Question:  What are some strategies for splitting the dataset into train, validation and test sets?
+Classification: answerable 
+
+Question:  Why does a neural net with a single hidden unit produce a linear decision boundary
+Classification: answerable 
+
+Question: {0}
+Classification:

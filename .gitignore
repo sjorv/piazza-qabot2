@@ -1,0 +1,3 @@
+# do not commit datasets since it has sensitive info
+datasets/*    
+__pycache__/*

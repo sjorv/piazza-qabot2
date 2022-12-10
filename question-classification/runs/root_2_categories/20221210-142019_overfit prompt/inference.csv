@@ -1,0 +1,4 @@
+Unnamed: 0,question,folders,target,predicted_category
+95,"Gradient Descent Learning Rate In lecture 2, Lisa mentioned decreasing $$\alpha$$ (learning rate) as we move towards the minimum. How do we do this? Is there any formula? Since in the lab, we just used validation set to pick a fixed $$\alpha$$ so I am wondering!",other,answerable, answerable
+186,"Hw1 Q3 - bold face ""b"" What does the bold face ""b"" stand for in Part (a)? Is it supposed to be the targets?
+",hw1,other, other
